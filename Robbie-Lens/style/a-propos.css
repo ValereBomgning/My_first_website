@@ -66,38 +66,10 @@ text-align: center;
     .competences p,li{
         font-size: 0.9em;
     }
-
-    header nav {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
     
-      header nav img {
-        margin-bottom: 20px;
-      }
-    
-      header,
-      footer {
-        padding: 20px 20px;
-      }
-    
-      h1 {
-        font-size: 2em;
-      }
-    
-      section {
-        padding: 50px 20px 50px 20px;
-      }
-    
-      nav a {
-        margin-left: 10px;
-        margin-right: 10px;
-      }
-
-      .competences h2{
+    .competences h2{
         font-size: 1.5em;
-      }
+    }
 }
 
 @media screen and (max-width: 1515px) {
