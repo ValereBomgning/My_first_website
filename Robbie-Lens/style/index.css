@@ -1,0 +1,173 @@
+.accueil-photos {
+  background-color: white;
+  padding: 80px;
+  align-items: center;
+}
+
+.accueil-photos h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.accueil-photos div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.accueil-intro {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.accueil-intro h1 {
+  margin-bottom: 15px;
+}
+
+.accueil-intro p {
+  margin-bottom: 30px;
+}
+
+.accueil-intro div {
+  padding-right: 80px;
+}
+
+.arriereplan1{
+  height: 50px;
+  border-right: 1px solid #A5B4FC;
+  border-bottom: 1px solid #A5B4FC;
+  position: relative;
+  top:395px;
+  right:60px;
+}
+.section-contact h2{
+  text-align: center;
+  color:  #A5B4FC;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  color: white;
+}
+
+.form-nom-email {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type='submit'] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 996px) {
+
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header nav img {
+    margin-bottom: 20px;
+  }
+
+  header,
+  footer {
+    padding: 20px 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  section {
+    padding: 50px 20px 50px 20px;
+  }
+
+  nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  
+  .accueil-intro {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .accueil-intro div {
+    padding-right: 0;
+    text-align: center;
+    order: 2;
+  }
+
+  .accueil-intro img {
+    order: 1;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .accueil-photos .lien-portfolio{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 30px;
+   }
+
+  .accueil-photos {
+    padding: 20px;
+  }
+
+  .accueil-photos div {
+    flex-direction: column;
+  }
+
+  .section-contact {
+    padding: 50px 20px;
+  }
+
+  .form-nom-email {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .arriereplan1{
+    display: none;
+  }
+}
